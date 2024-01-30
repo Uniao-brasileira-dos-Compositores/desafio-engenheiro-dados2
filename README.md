@@ -89,7 +89,7 @@ Acesse o Solr Admin Interface em http://localhost:8983/solr.
 
 **Arquivo CSV de Exemplo (Alunos de uma Escola Primária):**
 
-Utilize o arquivo [alunos.csv](https://github.com/joaomarcelo81/DesafioUBc/blob/main/aluno.csv) com os dados fictícios representando alunos de uma escola primária. 
+Utilize o arquivo [alunos.csv](https://raw.githubusercontent.com/joaomarceloubc/desafio-engenheiro-dados2/main/aluno.csv) com os dados fictícios representando alunos de uma escola primária. 
 
 **Pontos Extras:**
 
