@@ -1,12 +1,12 @@
 #**Desafio Técnico para Analista de Dados e Importação para o Solr**
 
 ---
-##**Incio**
+## **Incio**
 
 Bem-vindo(a) ao teste prático para a posição de Analista de Dados. 
 
 
-##**instruções**
+## **instruções**
 
 1. Faça o download do [docker](https://www.docker.com/products/docker-desktop/)
 2. Baixe o codigo para seu computador
@@ -17,15 +17,15 @@ Bem-vindo(a) ao teste prático para a posição de Analista de Dados.
 
 
 
-#**Parte 1: Desenvolvimento de Dashboard no Power BI**
+# **Parte 1: Desenvolvimento de Dashboard no Power BI**
 
-##**Descrição:**
+## **Descrição:**
 Seu objetivo neste teste é avaliar suas habilidades na criação de dashboards utilizando o Power BI. O foco será integrar e visualizar dados relacionados a alunos, matérias e notas.
 
-##**Objetivo do Teste:**
+## **Objetivo do Teste:**
 Construir um dashboard informativo que forneça insights sobre o desempenho acadêmico dos alunos, destacando características demográficas, médias de notas por semestre e outras informações relevantes.
 
-##**Conjunto de Dados:**
+## **Conjunto de Dados:**
 1. **Tabela de Alunos:**
    - ID
    - MATRICULA
@@ -50,7 +50,7 @@ Construir um dashboard informativo que forneça insights sobre o desempenho acad
    - Nota
    - Data de Criação
 
-##**Requisitos do Dashboard:**
+## **Requisitos do Dashboard:**
 
 1. **Demografia dos Alunos:**
    - Gráfico de pizza ou barras que destaque a distribuição de alunos por gênero.
@@ -67,15 +67,15 @@ Construir um dashboard informativo que forneça insights sobre o desempenho acad
 4. **Interatividade:**
    - Filtros interativos por semestre, gênero, bairro, entre outros, para permitir uma análise mais personalizada.
 
-##**Instruções Adicionais:**
+## **Instruções Adicionais:**
 - Utilize as funcionalidades avançadas do Power BI, como medidas calculadas, relações entre tabelas e hierarquias para aprimorar a interatividade.
 - Certifique-se de que o design do dashboard seja limpo, intuitivo e capaz de contar uma história visual sobre os dados apresentados.
 - Execute o arquivo docker-compose.yml para criar as bases de dados já com os dados necessários para a criação do dashboard.
 - Pedimos que você conclua o teste dentro de 8 dias após a data de envio. Se precisar de alguma informação adicional ou esclarecimento, sinta-se à vontade para entrar em contato.
 
-#**Parte 2: Importação de Dados para o Solr**
+# **Parte 2: Importação de Dados para o Solr**
 
-##**Descrição:**
+## **Descrição:**
 
 Seu objetivo é criar um script em Python que realiza as seguintes tarefas:
 
@@ -87,7 +87,7 @@ Seu objetivo é criar um script em Python que realiza as seguintes tarefas:
    - Após a formatação, o script deve inserir os dados no Apache Solr. 
    - Certifique-se de mapear corretamente os campos do CSV para os campos correspondentes no esquema do Solr.
 
-##**Requisitos Técnicos:**
+## **Requisitos Técnicos:**
 
 - Use a biblioteca `pandas` para manipulação de dados CSV em Python.
 - Utilize a biblioteca `pysolr` para interagir com o Solr a partir do script Python.
@@ -95,23 +95,23 @@ Seu objetivo é criar um script em Python que realiza as seguintes tarefas:
 
 Acesse o Solr Admin Interface em http://localhost:8983/solr.
 
-##**Arquivo CSV de Exemplo (Alunos de uma Escola Primária):**
+## **Arquivo CSV de Exemplo (Alunos de uma Escola Primária):**
 
 Utilize o arquivo [alunos.csv](https://raw.githubusercontent.com/joaomarceloubc/desafio-engenheiro-dados2/main/aluno.csv) com os dados fictícios representando alunos de uma escola primária. 
 
-##**Pontos Extras:**
+## **Pontos Extras:**
 
 - Lidar com situações de erro durante a formatação e inserção no Solr.
 - Implementar logs adequados para rastrear o progresso e eventuais problemas.
 - Garantir que o script seja eficiente, mesmo para grandes conjuntos de dados.
 
-##**Instruções:**
+## **Instruções:**
 
 1. Baixe o arquivo CSV de exemplo contendo dados fictícios de alunos de uma escola primária.
 2. Desenvolva o script em Python.
 3. Documente claramente como o script deve ser executado, incluindo dependências e configurações.
 4. Hospede o projeto no GitHub e forneça o link do repositório.
 
-##**Avaliação:**
+## **Avaliação:**
 
 Você será avaliado com base na eficácia do script, na capacidade de lidar com situações não ideais nos dados e na integração bem-sucedida com o Solr. A utilização do GitHub para hospedar o projeto será considerada na avaliação global.
